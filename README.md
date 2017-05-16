@@ -7,7 +7,13 @@ CapProjProposal.doc - This is a word document that contains the description of t
 
 CapstoneReportLite.doc  - This is an explaination of the intial results of the recommender system project.
 
+CapstoneReportFinal.doc - This is the word document containing the final report.
+
+A Recommender System.pptx  - This is a power point presentation of the project.
+
 Algorithm.ipynb - This is the jupyter notebook containing the weighted alternating least squares algorithm, the code for performing the five-fold cross validation, and the code for providing the recommendation output for each user.
+
+AlgorithmFinal.ipynb - This is the jupyter notebook containing the final code and final results.  The code was optimized in some areas for speed.  Also, a 1D array denoted Y-vector was created containing the mean rating of each movie.  This array was used to create a baseline Q_hat matrix of predictions containing the means.  This was compared to the Q matrix of ratings to come up with a baseline rmse which was 0.897.  This was also used in pre-loading the Y factor vector.
 
 MovieLensDataExploration.ipynb - This is the jupyter notebook that was used to investigate various aspects of the data such as the distribution of the ratings by rating value, distribution of average rating by user, and average number of ratings per user.
 
