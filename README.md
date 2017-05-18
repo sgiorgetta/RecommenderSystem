@@ -15,6 +15,8 @@ Algorithm.ipynb - This is the jupyter notebook containing the weighted alternati
 
 AlgorithmFinal.ipynb - This is the jupyter notebook containing the final code and final results.  The code was optimized in some areas for speed.  Also, a 1D array denoted Y-vector was created containing the mean rating of each movie.  This array was used to create a baseline Q_hat matrix of predictions containing the means.  This was compared to the Q matrix of ratings to come up with a baseline rmse which was 0.897.  This was also used in pre-loading the Y factor vector.
 
+Algorithm-Final-Copy1.ipynb  - This notebook is a copy of the above notebook with the number of iterations set at 7 instead of 12.  The resultant test_set rmse is close to that obtained in Algorithm-Final with approximately half the computation time.  The change to the algorithm was in how the Y array was created.  In this version, the Y array was populated with the means of the movies obtained from the entire dataset instead of the smaller test/train sets.
+
 MovieLensDataExploration.ipynb - This is the jupyter notebook that was used to investigate various aspects of the data such as the distribution of the ratings by rating value, distribution of average rating by user, and average number of ratings per user.
 
 MergeFilesTest.ipynb - This file is the jupyter notebook that was used to do some cleanup work, investigate null values, duplicate values, and learn how to merge the files properly.
